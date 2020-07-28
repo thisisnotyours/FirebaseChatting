@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="16dp"
+    android:background="@drawable/chatt_bg">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/civ"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:civ_border_width="2dp"
+        android:src="@drawable/girl_profile"
+        android:layout_alignParentRight="true"/>
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NAME"
+        android:textStyle="bold"
+        android:textColor="#ff333333"
+        android:layout_toLeftOf="@+id/civ"
+        android:layout_marginRight="16dp"/>
+
+    <TextView
+        android:id="@+id/tv_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxWidth="250dp"
+        android:text="Hello world"
+        android:layout_below="@+id/tv_name"
+        android:layout_toLeftOf="@+id/civ"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/bg_mymsgbox"
+        android:padding="12dp"
+        android:textColor="#ffffffff"/>
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="13:34"
+        android:textSize="12sp"
+        android:layout_toLeftOf="@+id/tv_msg"
+        android:layout_alignBottom="@id/tv_msg"
+        android:layout_marginRight="8dp"/>  <!--baseline: 글씨의 바닥에 맞춰짐-->
+    <!--alignBottom: 뷰의 바닥에 맞춰짐-->
+
+</RelativeLayout>

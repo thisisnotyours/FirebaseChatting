@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "913133643955",
+    "firebase_url": "https://ex85firechattingsuhyun.firebaseio.com",
+    "project_id": "ex85firechattingsuhyun",
+    "storage_bucket": "ex85firechattingsuhyun.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:913133643955:android:010e86f4c3de27a930e8c6",
+        "android_client_info": {
+          "package_name": "com.suek.ex85firebasechatting"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "913133643955-jkvcc71a4eue489smv020semjp7bf005.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0U0JKNXmlDf75dfSqSJQ8mliqEjydKaw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "913133643955-jkvcc71a4eue489smv020semjp7bf005.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
